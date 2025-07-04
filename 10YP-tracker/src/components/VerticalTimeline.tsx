@@ -40,7 +40,6 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ promises }) => {
   const allDates = promises.map(p => new Date(p.deadline_date).getTime());
   const minDate = Math.min(...allDates);
   const maxDate = Math.max(...allDates);
-  const today = Date.now();
   // Find vertical range (from first to last group marker)
   const groupCount = groups.length;
   const timelineHeight = groupCount > 1 ? (groupCount - 1) * 120 : 1; // 120 is minHeight per group
