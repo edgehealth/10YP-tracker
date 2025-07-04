@@ -12,7 +12,7 @@ interface PromiseCardProps {
 
 const PromiseCard: React.FC<PromiseCardProps> = ({ promise, smallText }) => (
   <Card sx={{
-    minWidth: 140,
+    minWidth: 120,
     maxWidth: 400,
     boxShadow: '0 2px 8px rgba(35,32,63,0.08)',
     borderRadius: 2,

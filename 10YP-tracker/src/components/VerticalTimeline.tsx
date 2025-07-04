@@ -16,7 +16,7 @@ const MAX_CARD_WIDTH = 400;
 const MAX_CARDS_PER_GROUP = 5;
 
 // Mobile card sizes
-const MOBILE_CARD_WIDTH = 140;
+const MOBILE_CARD_WIDTH = 120;
 const MOBILE_MIN_CARD_WIDTH = 50;
 const MOBILE_MAX_CARD_WIDTH = 320;
 

@@ -9,7 +9,7 @@ interface TimelineProps {
 
 const TIMELINE_WIDTH = 1200;
 const CONTAINER_HEIGHT = 500;
-const CARD_WIDTH = 140;
+const CARD_WIDTH = 120;
 const CARD_HEIGHT = 100;
 const MARKER_SIZE = 12;
 const FAN_STEP = 60; // vertical step for fanning out
