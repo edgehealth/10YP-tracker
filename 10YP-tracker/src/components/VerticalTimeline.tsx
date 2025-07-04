@@ -16,8 +16,8 @@ const MAX_CARD_WIDTH = 400;
 const MAX_CARDS_PER_GROUP = 5;
 
 // Mobile card sizes
-const MOBILE_CARD_WIDTH = 280;
-const MOBILE_MIN_CARD_WIDTH = 150;
+const MOBILE_CARD_WIDTH = 140;
+const MOBILE_MIN_CARD_WIDTH = 50;
 const MOBILE_MAX_CARD_WIDTH = 320;
 
 const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ promises }) => {
@@ -100,7 +100,7 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ promises }) => {
         width: { xs: '100%', md: 900 },
         mx: 'auto',
         py: { xs: 3, md: 6 },
-        px: { xs: 2, md: 0 },
+        px: 0,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

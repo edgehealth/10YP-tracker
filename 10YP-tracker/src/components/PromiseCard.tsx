@@ -12,15 +12,15 @@ interface PromiseCardProps {
 
 const PromiseCard: React.FC<PromiseCardProps> = ({ promise, smallText }) => (
   <Card sx={{
-    minWidth: 180,
+    minWidth: 140,
     maxWidth: 400,
     boxShadow: '0 2px 8px rgba(35,32,63,0.08)',
     borderRadius: 2,
     bgcolor: 'white',
     border: '1px solid',
     borderColor: '#c18dbe',
-    fontSize: smallText ? '0.8rem' : '1rem',
-    px: 2,
+    fontSize: {xs: '0.7rem', md: '0.8rem'},
+    px: {xs: 1, md: 2},
     py: 1,
     fontFamily: "'Segoe UI', 'Arial', sans-serif",
   }}>
@@ -28,7 +28,7 @@ const PromiseCard: React.FC<PromiseCardProps> = ({ promise, smallText }) => (
       <Typography variant={smallText ? 'body2' : 'body1'} sx={{ 
         fontWeight: 500, 
         mb: 0.5, 
-        fontSize: smallText ? '0.8rem' : '1rem',
+        fontSize: {xs: '0.7rem', md: '0.8rem'},
         color: '#23203f',
         fontFamily: "'Segoe UI', 'Arial', sans-serif",
       }}>
